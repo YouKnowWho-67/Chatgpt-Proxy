@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Web Gateway</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="background">
+    <div class="glow glow-1"></div>
+    <div class="glow glow-2"></div>
+  </div>
+
+  <main class="container">
+
+    <div class="logo">
+      <div class="logo-icon">↗</div>
+    </div>
+
+    <h1>Web Gateway</h1>
+
+    <p class="subtitle">
+      Access your authorized web services through one clean interface.
+    </p>
+
+    <div class="card">
+
+      <label for="urlInput">Destination URL</label>
+
+      <div class="input-wrapper">
+        <span class="input-icon">🔗</span>
+
+        <input
+          id="urlInput"
+          type="url"
+          placeholder="https://example.com"
+          autocomplete="off"
+        >
+      </div>
+
+      <button id="launchButton">
+        <span>Launch</span>
+        <span class="arrow">→</span>
+      </button>
+
+      <div id="status" class="status"></div>
+
+    </div>
+
+    <div class="features">
+
+      <div class="feature">
+        <span>⚡</span>
+        <div>
+          <strong>Fast</strong>
+          <small>Quick connections</small>
+        </div>
+      </div>
+
+      <div class="feature">
+        <span>🔒</span>
+        <div>
+          <strong>Private</strong>
+          <small>Your interface stays clean</small>
+        </div>
+      </div>
+
+      <div class="feature">
+        <span>✨</span>
+        <div>
+          <strong>Modern</strong>
+          <small>Built for your site</small>
+        </div>
+      </div>
+
+    </div>
+
+    <footer>
+      © 2026 Web Gateway
+    </footer>
+
+  </main>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
